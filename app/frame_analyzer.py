@@ -19,7 +19,7 @@ log = logging.getLogger("frame_analyzer")
 
 HF_MODEL_URL = (
     "https://api-inference.huggingface.co/models/"
-    "trpakov/vit-face-expression"
+    "dima806/facial_emotions_image_detection"
 )
 
 # Expression → Stress weights
