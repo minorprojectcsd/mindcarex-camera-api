@@ -18,8 +18,8 @@ from app.config import HF_API_TOKEN
 log = logging.getLogger("frame_analyzer")
 
 HF_MODEL_URL = (
-    "https://api-inference.huggingface.co/models/"
-    "dima806/facial_emotions_image_detection"
+    "https://router.huggingface.co/hf-inference/models/"
+    "trpakov/vit-face-expression"
 )
 
 # Expression → Stress weights
