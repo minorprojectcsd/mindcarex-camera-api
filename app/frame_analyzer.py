@@ -64,7 +64,10 @@ def detect_expressions(image_bytes: bytes) -> list[dict]:
         log.warning("HF_API_TOKEN not set")
         return []
 
-    headers = {"Authorization": f"Bearer {HF_API_TOKEN}"}
+    headers = {
+    "Authorization": f"Bearer {HF_API_TOKEN}",
+    "Content-Type": "image/jpeg",
+    }
 
     retry_delays = [15, 20, 25]
 
