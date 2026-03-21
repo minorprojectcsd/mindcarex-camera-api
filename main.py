@@ -3,6 +3,7 @@ SVC 3 — Camera / Face Expression Analysis
 Run:    uvicorn main:app --host 0.0.0.0 --port 8002 --reload
 Docker: see Dockerfile
 """
+import os
 from contextlib import asynccontextmanager
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
